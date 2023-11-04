@@ -1,0 +1,26 @@
+1.Inicio
+2.diasHotel,d[0,n]
+3.hotelPrecio,d[0,n]
+4.descuento,d[0,n]
+5.subtotal,d[0,n]
+6.total,d[0,n]
+7.Escribir "Ingrese los dias que se quedara en el hotel"
+8.Leer diasHotel
+9.Escribir "Ingrese el precio por dia"
+10.Leer hotelPrecio
+11.Si diasHotel > 5 entonces
+12.   descuento <-- hotelPrecio*0.10
+13.De lo contrario 
+14.Si diasHotel > 10 entonces 
+15.   descuento <-- hotelPrecio*0.15
+16.De lo contrario
+17.Si diasHotel > 15 entonces
+18.   descuento <--hotelPrecio*0.20
+19.Fin si 
+20.Fin si
+21.Fin si 
+22.total <--subtotal-descuento
+23.Escribir "El subtotal es: "+subtotal
+24.Escribir "El descuento es: "+descuento
+25-Escribir "El total es: "+total
+26.Fin

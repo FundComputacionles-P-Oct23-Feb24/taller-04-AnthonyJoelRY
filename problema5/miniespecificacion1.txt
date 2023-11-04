@@ -1,0 +1,34 @@
+1.Inicio
+2.edad,i[0,n]
+3.litrosAgua,d[0,n]
+4.costoLitro,d[0,n]
+5.minutosGastados,d[0,n]
+6.minutosPrecio,d[0,n]
+7.descuento,d[0,n]
+8.totalA,d[0,n]
+9.totalM,d[0,n]
+10.Escribir "Ingrese los litros de agua que se usaron"
+11.Leer litrosAgua
+12.Escribir ""Ingrese el costo por litro"
+13.Leer costoLitros
+14.Escribir "Ingrese el numero de minutos gastados"
+15.Leer minutosPrecio
+16.Escribir "Ingrese el precio por minuto"
+17.Leer minutosPrecio 
+18.totalA <-- litrosAgua*costoLitros
+19.totalM <-- minutosGastados*minutosPrecio
+20.Escribir "Ingrese su edad"
+21.Leer edad
+22.Si edad < 20 entonces
+23.   descuento <-- totalA*0.20
+24.   totaA <-- totalA-descuento
+25.   descuento <-- totalM*0.20
+26.   totalM <-- totalM-descuento
+27    Escribir "El pago mensual del agua es: "+totalA
+28.   Escribir "El pago mensual del telefono es: "+totalM
+29.De lo contrario
+30.   Escribir "El pago mensual del agua es: "+totalA
+31.   Escribir "El pago mensual del telefono es: "+totalM
+32.Fin si
+33.Fin
+

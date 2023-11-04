@@ -1,0 +1,15 @@
+1.Inicio
+2.temperaturaGrados,d[0,n]
+3.farenheit,d[0,n]
+4.Kelvin,d[0,n]
+5.Escribir "Ingrese la temperatura en grados centígrados °c"
+6.Leer temperaturaGrados
+7.Si temperaturaGrados >= 0 and temperaturaGrados <=100
+8.   farenheit <-- 9/5 (temperaturaGrados)+32
+9.   kelvin <--(temperaturaGrados)+273.15
+10.  Escribir "La temperatura en farenheit: "+farenheit
+11.  Escribir "La temperatura en kelvin: "+kelvin
+12.De lo contrario
+13.  Escribir "La temperatura en °c debe ser positiva y no mayor de 100"
+14.Fin si
+15.Fin

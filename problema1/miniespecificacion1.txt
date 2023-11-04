@@ -1,0 +1,21 @@
+1.Inicio
+2.total,d[0,n]
+3.kilovatioHcosto,d[0,n]
+4.consumoKV,d[0,n]
+5.edad,d[0,n]
+6.descuento,d[0,n]
+7.Escribir "Ingrese los kilovatios consumidos"
+8.Leer comsumoHV
+9.Escribir "Ingresar su edad"
+10.Leer edad
+11.total<--kilovatioHcosto*consumoKV
+12.Si edad > 65 entonces
+13.   descuento <-- total*0.15
+14.   total <--total-descuento
+15.   Escribir "El vapor a pagar es"
+16.   Escribir total
+17.De lo contrario
+18.   Escribir "El valor a pagar es "
+19.   Escribir total
+20.Fin si 
+21.Fin
